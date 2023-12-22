@@ -1,0 +1,35 @@
+.table-rows{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* border-top: 1.5px solid black; */
+}
+
+.heading-container{
+    display: flex;
+    width: 90%;
+    /* border: 1.5px solid black */
+}
+
+.heading{
+    border-left: 1.5px solid black;
+    border-top: 1.5px solid black;
+    text-align: center;
+}
+
+.heading:last-child {
+    border-right: 1.5px solid black;
+}
+
+.product-table{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container{
+    text-align: center;
+    display: flex;
+}
